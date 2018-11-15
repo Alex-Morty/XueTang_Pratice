@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-3.5.3.xsd">
+    <modelVersion>3.5.3</modelVersion>
+    <groupId>spring-boot</groupId>
+    <artifactId>study</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <!-- 指定parent项目 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.10.RELEASE</version>
+    </parent>
+
+    <properties>
+        <!-- spring boot默认的jdk 版本为1.6，我们在这里改为1.8 -->
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <!-- 引入spring-boot-starter-web 依赖 -->
+            <!-- 由于在spring boot 顶层POM文件中定义了相关dependencyManagement，因此这里就不需要配置 <version></version>, 
+                相关说明可以参考 https://blog.csdn.net/liutengteng130/article/details/46991829 -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>

@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.synchonized.Main",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChatClientFrame<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.ChatClientFrame",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChatServerFrame<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.ChatServerFrame",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClientSocket<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.ClientSocket",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiTalkClient<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.MultiTalkClient",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiTalkServer<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.MultiTalkServer",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MulticastClient<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.MulticastClient",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MulticastServer<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.MulticastServer",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuoteClient<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.QuoteClient",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuoteServer<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.QuoteServer",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuoteServerThread<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.QuoteServerThread",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SerSocket<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.SerSocket",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-URLReader<extension>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.url.URLReader",
+            "args": "",
+            "projectName": "extension"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
+        }
+    ]
+}
